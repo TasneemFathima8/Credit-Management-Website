@@ -42,5 +42,5 @@ $result=mysqli_query($con,$q);
            </tr>
         </table>
         </form>
-    </body>
+     </body>
 </html>
