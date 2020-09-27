@@ -1,6 +1,5 @@
 <?php
 $con=mysqli_connect('localhost','root','','company');
-//mysqli_select_db($con,'id8930489_spark');
 $q="select name from user";
 $result=mysqli_query($con,$q);
 ?>
@@ -28,8 +27,7 @@ $result=mysqli_query($con,$q);
     <table align ="center" border="1" bgcolor="#538cc6" height="60%" width="50%" text-align="center" font-family="Lato,Calibri,Arial,sans-serif">  
     
     <?php 
-session_start();
-$con=mysqli_connect('localhost','root','','company');
+$con=mysqli_connect('localhost','id14969232_tasneem','Creditmanagement#16','id14969232_com');
 
 $q="select * from user ";
 $result=mysqli_query($con,$q);
@@ -162,7 +160,7 @@ $row_count=mysqli_num_rows($result);
       <td>  <h2 style=" font-family:Agency FB; font-size: 55px ;text-align: center  "> Select User </h2>></td>
   <td>
 <?php
-$con=mysqli_connect('localhost','root','','company');
+$con=mysqli_connect('localhost','id14969232_tasneem','Creditmanagement#16','id14969232_com');
 $q="select name from user";
 $result=mysqli_query($con,$q);
 ?>
@@ -183,6 +181,8 @@ $result=mysqli_query($con,$q);
        </tr>
         </table>
     </form>
+    <a href="index.php"><input type="button" name="  BACK  " value="  BACK "  style="width=500px; height=250px; position:absolute;
+            left:50%; margin:auto;background-color:#002b80; border:2px solid #d5402b; color:#fff; text-align: center" >
       
 </body>
 </html>
