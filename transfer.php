@@ -1,6 +1,6 @@
 <?php
 session_start();
-$con=mysqli_connect('localhost','root','','company');
+$con=mysqli_connect('localhost','id14969232_tasneem','Creditmanagement#16','id14969232_com');
 $q="select name from user";
 $result=mysqli_query($con,$q);
 $_SESSION['to']=$_POST["transfer"];
