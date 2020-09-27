@@ -56,5 +56,5 @@ $_SESSION['name']=$name;
                
 
 
-    </body>
+ </body>
 </html>
